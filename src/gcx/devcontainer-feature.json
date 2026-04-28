@@ -1,0 +1,19 @@
+{
+  "name": "gcx",
+  "id": "gcx",
+  "version": "0.0.0",
+  "description": "The gcx command line interface tool to manage your Grafana instance",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "0.2.10"
+      ],
+      "default": "0.2.10",
+      "description": "Select tool version"
+    }
+  },
+  "installsAfter": [
+      "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
