@@ -1,0 +1,19 @@
+{
+  "name": "cue",
+  "id": "cue",
+  "version": "0.0.0",
+  "description": "The Cue language",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "0.16.1"
+      ],
+      "default": "0.16.1",
+      "description": "Select tool version"
+    }
+  },
+  "installsAfter": [
+      "ghcr.io/devcontainers/features/common-utils"
+  ]
+}

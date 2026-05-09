@@ -14,4 +14,4 @@ Installs [gcx](https://github.com/grafana/gcx) command line tool.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter an gcx version to install | string | latest |
+| version | Select or enter an gcx version to install | string | 0.2.10 |
