@@ -1,17 +1,17 @@
-#!/bin/sh
+#!/bin/bash
 
 VERSION="${VERSION:-"0.16.1"}"
 ARCH="$(uname -m)"
 
 set -e
 
-if [ "$(id -u)" -ne 0 ]; then
-    echo -e "Script must be run as root."
+if [[ "$(id -u)" -ne 0 ]]; then
+    echo "Script must be run as root."
     exit 1
 fi
 
-if [ "$(uname -s)" -ne "Linux" ]; then
-    echo -e "Unsupported OS."
+if [[ "$(uname -s)" != "Linux" ]]; then
+    echo "Unsupported OS."
     exit 1
 fi
 
@@ -23,7 +23,7 @@ case "${ARCH}" in
   ARCH="arm64"
   ;;
 *)
-  echo -e "Unsupported architecture."
+  echo "Unsupported architecture."
   exit 1
   ;;
 esac

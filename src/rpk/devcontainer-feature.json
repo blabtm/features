@@ -1,7 +1,7 @@
 {
   "name": "rpk",
   "id": "rpk",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The rpk command line interface tool to manage your entire Redpanda cluster",
   "options": {
     "version": {
