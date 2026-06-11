@@ -1,7 +1,7 @@
 {
   "name": "gcx",
   "id": "gcx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The gcx command line interface tool to manage your Grafana instance",
   "options": {
     "version": {

@@ -32,6 +32,6 @@ curl -LO https://github.com/grafana/gcx/releases/download/v${VERSION}/gcx_${VERS
 sudo tar -xf gcx_${VERSION}_linux_${ARCH}.tar.gz -C /usr/local/bin
 rm gcx_${VERSION}_linux_${ARCH}.tar.gz
 
-gcx completion bash | sudo tee /etc/bash_completion.d/gcx
+gcx completion bash | sudo tee /etc/bash_completion.d/gcx >/dev/null
 
 echo "Done!"

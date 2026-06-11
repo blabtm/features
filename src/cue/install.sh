@@ -32,6 +32,6 @@ curl -LO https://github.com/cue-lang/cue/releases/download/v${VERSION}/cue_v${VE
 sudo tar -xf cue_v${VERSION}_linux_${ARCH}.tar.gz -C /usr/local/bin
 rm cue_v${VERSION}_linux_${ARCH}.tar.gz
 
-cue completion bash | sudo tee /etc/bash_completion.d/cue
+cue completion bash | sudo tee /etc/bash_completion.d/cue >/dev/null
 
 echo "Done!"
