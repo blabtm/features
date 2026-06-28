@@ -1,0 +1,19 @@
+{
+  "name": "dagger",
+  "id": "dagger",
+  "version": "0.0.1",
+  "description": "The Dagger automation engine",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "0.21.7"
+      ],
+      "default": "0.21.7",
+      "description": "Select tool version"
+    }
+  },
+  "installsAfter": [
+      "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
